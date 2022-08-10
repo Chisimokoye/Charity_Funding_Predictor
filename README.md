@@ -18,6 +18,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 #### What variable(s) should be removed from the input data because they are neither targets nor features?
 EIN and NAME—Identification columns 
 
+
 ### Compiling, Training, and Evaluating the Model
 #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 My first model had 2 hidden layers 80 and 30 neuron respectively and relu activation on both hidden layers why sigmoid activation was employed for the output layer. 
@@ -25,14 +26,17 @@ My first model had 2 hidden layers 80 and 30 neuron respectively and relu activa
 
 #### Were you able to achieve the target model performance?
 No. My model at best gave a 73.3% accuracy 1.7% less than the target model performance
+![image](https://user-images.githubusercontent.com/99673859/183855525-605d10cc-b385-4ae3-9d74-076ea883cf9e.png)
 
 #### What steps did you take in your attempts to increase model performance?
 To Increase model performance i tried optimising the model in two ways. 
 1) I increased the number of epochs to the training regimen. This resulted in an accuracy of 73.4%
 ![image](https://user-images.githubusercontent.com/99673859/183852557-157a5b83-86f7-4c88-9c14-8ce5c3bf2e17.png)
+![image](https://user-images.githubusercontent.com/99673859/183855675-7d71034d-0be9-4e63-9a4c-a30cc6339782.png)
 
 2) I then tried using differnt activation functions (tanh) for the hidden layers. Accuracy was 73.1%
 ![image](https://user-images.githubusercontent.com/99673859/183852391-19eac528-7970-4f74-abad-7b566b60932b.png)
+![image](https://user-images.githubusercontent.com/99673859/183855863-96a1ad8f-a943-40a6-8f7c-ee4620a76f3c.png)
 
 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
