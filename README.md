@@ -13,15 +13,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 IS_SUCCESSFUL— Was the money used effectively? - this is the target variable for my model. 
 
 #### What variable(s) are the features for your model?
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special consideration for application
-ASK_AMT—Funding amount requested
+![image](https://user-images.githubusercontent.com/99673859/183854453-9f2e4bdf-7bf4-42be-bf50-3c6dc2b199d9.png)
 
 #### What variable(s) should be removed from the input data because they are neither targets nor features?
 EIN and NAME—Identification columns 
