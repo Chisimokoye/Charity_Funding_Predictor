@@ -1,1 +1,47 @@
 # Deep_Learning_Challenge
+
+
+## Report on the Neural Network Model
+A report on the performance of the deep learning model created for AlphabetSoup.
+
+### Overview of the analysis: Explain the purpose of this analysis.
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. This analysis therefore uses my knowledge of machine learning and neural networks, to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+
+
+###Results: Using bulleted lists and images to support your answers, address the following questions.
+#### What variable(s) are the target(s) for your model?
+IS_SUCCESSFUL— Was the money used effectively? - this is the target variable for my model. 
+
+#### What variable(s) are the features for your model?
+APPLICATION_TYPE—Alphabet Soup application type
+AFFILIATION—Affiliated sector of industry
+CLASSIFICATION—Government organization classification
+USE_CASE—Use case for funding
+ORGANIZATION—Organization type
+STATUS—Active status
+INCOME_AMT—Income classification
+SPECIAL_CONSIDERATIONS—Special consideration for application
+ASK_AMT—Funding amount requested
+
+#### What variable(s) should be removed from the input data because they are neither targets nor features?
+EIN and NAME—Identification columns 
+
+### Compiling, Training, and Evaluating the Model
+#### How many neurons, layers, and activation functions did you select for your neural network model, and why?
+My first model had 2 hidden layers 80 and 30 neuron respectively and relu activation on both hidden layers why sigmoid activation was employed for the output layer. 
+![image](https://user-images.githubusercontent.com/99673859/183852849-4632b8a6-8651-4149-bb36-618b6088f851.png)
+
+#### Were you able to achieve the target model performance?
+No. My model at best gave a 73.3% accuracy 1.7%b less than the target model performance
+
+#### What steps did you take in your attempts to increase model performance?
+To Increase model performance i tried optimising the model in two ways. 
+1) I increased the number of epochs to the training regimen. This resulted in an accuracy of 73.4%
+![image](https://user-images.githubusercontent.com/99673859/183852557-157a5b83-86f7-4c88-9c14-8ce5c3bf2e17.png)
+
+2) I then tried using differnt activation functions (tanh) for the hidden layers. Accuracy was 73.1%
+![image](https://user-images.githubusercontent.com/99673859/183852391-19eac528-7970-4f74-abad-7b566b60932b.png)
+
+
+### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Overall, I beleieve that the model will successfull help Alphabet Soup make better choices with their lending (albeit not reaching the recommended performance. Howeevr to improve the model performance, we could explore other machine learning techniques and tools. This should mostly be aimed at reducing the noise in the data, thus pointing us in the direction of a better performning model.
