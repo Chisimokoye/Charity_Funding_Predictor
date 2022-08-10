@@ -41,3 +41,7 @@ To Increase model performance i tried optimising the model in two ways.
 
 ### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 Overall, I beleieve that the model will successfull help Alphabet Soup make better choices with their lending (albeit not reaching the recommended performance. Howeevr to improve the model performance, we could explore other machine learning techniques and tools. This should mostly be aimed at reducing the noise in the data, thus pointing us in the direction of a better performning model.
+
+
+
+##### For detailed analysis please see the Charity Funding Notebook
