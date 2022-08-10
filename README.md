@@ -10,7 +10,7 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 ### Results: Using bulleted lists and images to support your answers, address the following questions.
 #### What variable(s) are the target(s) for your model?
-IS_SUCCESSFUL— Was the money used effectively? - this is the target variable for my model. 
+**IS_SUCCESSFUL**— Was the money used effectively? - this is the target variable for my model. 
 
 #### What variable(s) are the features for your model?
 ![image](https://user-images.githubusercontent.com/99673859/183854453-9f2e4bdf-7bf4-42be-bf50-3c6dc2b199d9.png)
@@ -24,7 +24,7 @@ My first model had 2 hidden layers 80 and 30 neuron respectively and relu activa
 ![image](https://user-images.githubusercontent.com/99673859/183852849-4632b8a6-8651-4149-bb36-618b6088f851.png)
 
 #### Were you able to achieve the target model performance?
-No. My model at best gave a 73.3% accuracy 1.7%b less than the target model performance
+No. My model at best gave a 73.3% accuracy 1.7% less than the target model performance
 
 #### What steps did you take in your attempts to increase model performance?
 To Increase model performance i tried optimising the model in two ways. 
