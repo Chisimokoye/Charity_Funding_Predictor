@@ -1,4 +1,4 @@
-# Deep_Learning_Challenge
+# Charity Funding Predictor
 
 
 ## Report on the Neural Network Model
@@ -22,7 +22,7 @@ EIN and NAME—Identification columns
 ### Compiling, Training, and Evaluating the Model
 #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 My first model had 2 hidden layers 80 and 30 neuron respectively and relu activation on both hidden layers why sigmoid activation was employed for the output layer. 
-![image](https://user-images.githubusercontent.com/99673859/183852849-4632b8a6-8651-4149-bb36-618b6088f851.png)
+![image](https://user-images.githubusercontent.com/99673859/189411682-c3ff9b46-60ec-40dd-882d-6180644124b3.png)
 
 #### Were you able to achieve the target model performance?
 No. My model at best gave a 73.3% accuracy 1.7% less than the target model performance
@@ -31,11 +31,11 @@ No. My model at best gave a 73.3% accuracy 1.7% less than the target model perfo
 #### What steps did you take in your attempts to increase model performance?
 To Increase model performance i tried optimising the model in two ways. 
 1) I increased the number of epochs to the training regimen. This resulted in an accuracy of 73.4%
-![image](https://user-images.githubusercontent.com/99673859/183852557-157a5b83-86f7-4c88-9c14-8ce5c3bf2e17.png)
+![image](https://user-images.githubusercontent.com/99673859/189411981-6b0f4761-5fc8-498e-9d72-26d97dda335f.png)
 ![image](https://user-images.githubusercontent.com/99673859/183855675-7d71034d-0be9-4e63-9a4c-a30cc6339782.png)
 
 2) I then tried using differnt activation functions (tanh) for the hidden layers. Accuracy was 73.1%
-![image](https://user-images.githubusercontent.com/99673859/183852391-19eac528-7970-4f74-abad-7b566b60932b.png)
+![image](https://user-images.githubusercontent.com/99673859/189412119-24b03d7a-950d-4725-85fa-3a02018594cb.png)
 ![image](https://user-images.githubusercontent.com/99673859/183855863-96a1ad8f-a943-40a6-8f7c-ee4620a76f3c.png)
 
 
